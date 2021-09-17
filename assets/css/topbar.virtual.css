@@ -275,7 +275,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(41, 36, 36, 0.7);
+  background-color: rgba(52, 58, 64, 0.7);
 }
 
 .testi-carousel .item {
@@ -326,7 +326,7 @@
 
 
 .page-client {
-  background-color: #171925;
+  background-color: #343a40;
   color: #fff;
 }
 
@@ -335,7 +335,7 @@
   padding-bottom: 60px;
   border-width: 0 1px 1px 1px;
   border-style: solid;
-  border-color: #292e3b;
+  border-color: #5b5b5b;
 }
 
 .page-client .row:last-child .item {
@@ -457,7 +457,7 @@
   display: block;
   margin: 0;
   padding: 50px 0;
-  background-color: #171925;
+  background-color: #343a40;
   color: #9FA2AB;
 }
 
