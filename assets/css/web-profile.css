@@ -1,0 +1,49 @@
+.page-webprofile {
+    background-color: #343a40;
+    color: #9FA2AB;
+}
+
+.page-webprofile .card {
+    margin: 32px 0;
+    background-color: #25292d;
+    height: 300px;
+}
+.wp-card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+
+}
+
+
+.page-webprofile .card .iconic {
+    font-size: 40px;
+    color: #fff;
+}
+
+.page-webprofile .card .btn-theme {
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+    bottom: -24px;
+    margin: auto;
+    padding: 10px 24px;
+    width: 140px;
+    box-shadow: none;
+}
+
+.web-place {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.web-place > img {
+    width: 20%;
+    height: auto;
+}
