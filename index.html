@@ -32,29 +32,28 @@
 
   <link rel="stylesheet" type="text/css" href="./assets/css/web-profile.css">
 
+  <link rel="stylesheet" type="text/css" href="./assets/css/fab-menu.css">
+
 </head>
 <body class="theme-red">
-  
-  <!-- Back to top button -->
-  <div class="btn-back_to_top">
-    <span class="ti-arrow-up"></span>
-  </div>
-  
+
   <!-- Setting button -->
   <div class="config">
-    <div class="template-config">
-      <!-- Settings -->
-      <div class="d-block">
-        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-paint-bucket"></span></button>
-      </div>
-     
-      <!-- Help -->
-      <div class="d-block">
-        <a href="#" class="btn btn-fab btn-sm" title="Help" data-toggle="tooltip" data-placement="left"><span class="ti-help"></span></a>
+    <div class="btn-group-fab" role="group" aria-label="FAB Menu">
+      <div>
+        <button type="button" class="btn btn-main" data-placement="left" title="Menu"> <i class="ti-paint-bucket"></i> </button>
+        <div class="color-bar" data-toggle="selected">
+          <button type="button" class="btn btn-sub color-item bg-theme-red selected" data-class="theme-red" data-placement="left" title="red"></button>
+          <button type="button" class="btn btn-sub color-item bg-theme-red selected" data-class="theme-red" data-placement="left" title="red"></button>
+          <button type="button" class="btn btn-sub color-item bg-theme-blue" data-class="theme-blue" data-placement="left" title="blue"></button>
+          <button type="button" class="btn btn-sub color-item bg-theme-green" data-class="theme-green" data-placement="left" title="green"></button>
+          <button type="button" class="btn btn-sub color-item bg-theme-orange" data-class="theme-orange" data-placement="left" title="orange"></button>
+          <button type="button" class="btn btn-sub color-item bg-theme-purple" data-class="theme-purple" data-placement="left" title="purple"></button>
+        </div>
       </div>
     </div>
     
-    <div class="set-menu ">
+    <!-- <div class="set-menu ">
       <p>Select Color</p>
       <div class="color-bar" data-toggle="selected">
         <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
@@ -63,9 +62,8 @@
         <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
         <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
       </div>
-    </div>
+    </div> -->
   </div>
-  
   <div class="vg-page page-home" id="home" style="background-image: url(./assets/img/bg_image_3.jpg)">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
